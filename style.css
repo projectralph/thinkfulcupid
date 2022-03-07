@@ -96,6 +96,15 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+ul#menu{
+  padding: 0;
+}
+
+#menu{
+  display: flex;
+  justify-content:space-evenly
+}
+
 
 
 /* -------  Join Form ------- */
