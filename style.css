@@ -1,0 +1,186 @@
+/* -------  General Styles ------- */
+
+body {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  color: #6b1a22;
+  flex-grow: inherit;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 10px 15px 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+  font: 14px;
+}
+
+section {
+  padding: 20px;
+}
+
+section.alternate-background {
+  background-color: #a35766;
+  color: #ecdbc9;
+}
+
+main img {
+  width: 100%;
+}
+
+/* ---  Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* -------  Navigation ------- */
+
+header {
+  background-color: #83092e;
+  padding: 20px 20px 0 0;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Tangerine", cursive;
+  font-size: 72px;
+  color: #ecdbc9;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 5;
+  font-size:large;
+  justify-content: center;
+}
+
+header nav ul li a {
+  color: #ecdbc9;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+  text-align:center;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+
+
+/* -------  Join Form ------- */
+form {
+  border: 2px solid #6b1a22;
+  padding: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+.fill {
+  display: flex;
+  justify-content: space-between;
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+form button {
+  background-color: #83092e;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+/* -------  Footer ------- */
+
+footer {
+  background-color: #83092e;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* -------  Media Query ------- */
+
+@media all and (min-width: 480px) {
+  header {
+    display:flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    font-size: 56px;
+  }
+
+  h2{
+    font-size: 32px;
+  }
+
+  header .group{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .group{
+    flex-direction: row;
+    align-items: center;
+    font-size: 26px;
+  }
+
+  header nav ul li a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+
+#join img {
+  display: flex;
+  width: 100%;
+}
+
+.logo {
+  font-size: 30px;
+  text-align: left;
+  align-items: center;
+}
+
+}
