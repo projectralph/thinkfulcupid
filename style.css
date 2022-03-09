@@ -65,9 +65,12 @@ header {
 }
 
 .logo {
+  display: flex;
   font-family: "Tangerine", cursive;
-  font-size: 72px;
+  font-size: 68px;
   color: #ecdbc9;
+  padding: 0 20px;
+  justify-content: center;
 }
 
 header nav {
@@ -187,7 +190,7 @@ footer p {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 28px;
   text-align: left;
   align-items: center;
 }
